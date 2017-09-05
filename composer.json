@@ -1,27 +1,37 @@
 {
     "name": "markhuot/twig-modules",
-    "description": "CSS Modules for Twig",
+    "description": "An easy way to load CSS Module JSON files in to Twig",
     "type": "craft-plugin",
-    "license": "MIT",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin"
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.2",
+        "webonyx/graphql-php": "^0.9.10",
+        "react/http": "^0.7",
+        "anahkiasen/underscore-php": "^2.0",
+        "symfony/serializer": "^3.3",
+        "symfony/property-access": "^3.3"
+    },
     "authors": [
         {
             "name": "Mark Huot",
             "email": "mark@markhuot.com"
         }
     ],
-    "minimum-stability": "beta",
-    "require": {},
     "autoload": {
         "psr-4": {
-            "markhuot\\TwigModules\\": "src/"
+            "markhuot\\CraftQL\\": "src/"
         }
     },
     "extra": {
         "name": "Twig Modules",
         "handle": "twig-modules",
-        "schemaVersion": "1.0.0",
-        "hasCpSettings": false,
-        "hasCpSection": false,
+        "developer": "Mark Huot",
+        "developerUrl": "https://www.github.com/markhuot",
         "class": "markhuot\\TwigModules\\Plugin"
     }
 }
