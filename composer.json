@@ -1,0 +1,27 @@
+{
+    "name": "markhuot/twig-modules",
+    "description": "CSS Modules for Twig",
+    "type": "craft-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Huot",
+            "email": "mark@markhuot.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "markhuot\\TwigModules\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Twig Modules",
+        "handle": "twig-modules",
+        "schemaVersion": "1.0.0",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "class": "markhuot\\TwigModules\\Plugin"
+    }
+}
